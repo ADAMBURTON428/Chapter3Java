@@ -10,7 +10,7 @@ public class Temp {
 		
 		System.out.print("Enter the temp in celsius at 8: ");
 		temp = input.nextDouble();
-		
+		displayTemp(temp);
 		
 
 	}
