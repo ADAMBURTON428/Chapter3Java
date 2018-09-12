@@ -8,17 +8,24 @@ public class Temp {
 		Scanner input = new Scanner(System.in);
 		double temp;
 		
-		System.out.print("Enter the temp in celsius at 8: ");
+		System.out.print("Enter the temp in fahrenheit at 8:00 am: ");
+		temp = input.nextDouble();
+		System.out.print("Enter the temp in fahrenheit at 12:00 pm: ");
+		temp = input.nextDouble();
+		System.out.print("Enter the temp in fahrenheit at 5:00 pm: ");
 		temp = input.nextDouble();
 		displayTemp(temp);
 		
 
 	}
 public static void displayTemp(double temp) {
-	double fahrenheit;
-	fahrenheit = temp * 1.8 + 32;
+	double celsius;
+	celsius = (temp - 32) * 5/9 ;
 	
-	System.out.print("The temp in fahrenheit  at 8am is " + fahrenheit);
+	System.out.print("The temp in celsius at 8 am is " + celsius);
+	System.out.print("The temp in celsius at 12 pm is " + celsius);
+	System.out.print("The temp in celsius at 5 pm is " + celsius);
+
 }
 
 
