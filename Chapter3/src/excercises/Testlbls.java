@@ -19,18 +19,18 @@ poundsInMiligrams(weight);
 	}
 public static void poundsInKilograms(int weight) {
 	double convertedWeight;
-	
 	convertedWeight = weight * .45359237;
-	System.out.println("In kilograms: " + convertedWeight);
+	System.out.println("In Kilograms: " + convertedWeight);
 }
 public static void poundsInOunces(int weight) {
 	double convertedWeight;	
 	convertedWeight = weight * 16;
-	System.out.println("In ounces: " + convertedWeight);
+	System.out.println("In Ounces: " + convertedWeight);
 }
 public static void poundsInMiligrams(int weight) {
 	double convertedWeight;
 	convertedWeight = weight * 453592;
 	System.out.println("In Miligrams: " + convertedWeight);
+
 }
 }
